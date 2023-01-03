@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T07:09:52.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="USn9fndlbAUCR3qIlyDL" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-03T08:02:00.385Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="-v_XlN-OvvNexxGfOc0D" version="20.7.4" type="github">
   <diagram id="Z5-SzpJraQpNQHFIWIBT" name="第 1 页">
     <mxGraphModel dx="1221" dy="668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,14 +76,14 @@
         <mxCell id="Jg-vCYdYaEvKjRM4YeU7-1" value="作用：实现近大远小的效果" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="659" y="246" width="270" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="Jg-vCYdYaEvKjRM4YeU7-2" value="作用：所有物体统一的参考坐标系，表示物体的相对关系；&lt;br&gt;基于此能实现平移、旋转、缩放等效果" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Jg-vCYdYaEvKjRM4YeU7-2" value="作用：所有物体统一的参考坐标系，表示物体的相对关系；&lt;br&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="653" y="154" width="342" height="66.5" as="geometry" />
         </mxCell>
         <mxCell id="Jg-vCYdYaEvKjRM4YeU7-3" value="作用：" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="656" y="339" width="270" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="Jg-vCYdYaEvKjRM4YeU7-4" value="作用：" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="653" y="69" width="270" height="61" as="geometry" />
+        <mxCell id="Jg-vCYdYaEvKjRM4YeU7-4" value="作用：物体的平移、旋转、缩放是基于此实现，&lt;br&gt;只是最终还会通过矩阵变换变换成世界坐标系中的坐标" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="653" y="69" width="379" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
