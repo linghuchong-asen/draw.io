@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T08:58:20.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.0" etag="kZ3HGJYPWYwCBWD7VjE2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-03T09:19:46.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.0" etag="rjlVd5Z6pyp0mU92LtKk" type="github">
   <diagram id="iZg1cKGvFL-ISrlDS8re" name="第 1 页">
     <mxGraphModel dx="1621" dy="668" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
           <mxGeometry x="653" y="69" width="379" height="61" as="geometry" />
         </mxCell>
         <mxCell id="yo_hxppsZWKmxfAibkp3-28" value="three.js坐标系树" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="113" y="579" width="231" height="30" as="geometry" />
+          <mxGeometry x="111.5" y="563" width="231" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yo_hxppsZWKmxfAibkp3-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="yo_hxppsZWKmxfAibkp3-29" target="yo_hxppsZWKmxfAibkp3-30">
           <mxGeometry relative="1" as="geometry" />
@@ -95,7 +95,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yo_hxppsZWKmxfAibkp3-29" value="Scene" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="161" y="647" width="120" height="60" as="geometry" />
+          <mxGeometry x="159" y="630" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yo_hxppsZWKmxfAibkp3-52" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="yo_hxppsZWKmxfAibkp3-30" target="yo_hxppsZWKmxfAibkp3-39">
           <mxGeometry relative="1" as="geometry" />
@@ -143,7 +143,7 @@
           <mxGeometry x="167" y="1005" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yo_hxppsZWKmxfAibkp3-57" value="顶级父对象，称为世界坐标系；如果一个Mesh直接添加进Scene中" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="635" width="640" height="80" as="geometry" />
+          <mxGeometry x="295" y="620" width="640" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yo_hxppsZWKmxfAibkp3-58" value="" style="endArrow=classic;html=1;rounded=1;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
