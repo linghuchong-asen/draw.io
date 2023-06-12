@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T12:44:29.384Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="CXNbVtf9T0aDBTXGyNyG" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T01:27:29.303Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="X7xJ49enFoS2baH0x-jr" version="21.3.8" type="github">
   <diagram id="iZg1cKGvFL-ISrlDS8re" name="第 1 页">
-    <mxGraphModel dx="1762" dy="779" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1762" dy="778" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,14 +76,14 @@
         <mxCell id="yo_hxppsZWKmxfAibkp3-24" value="作用：实现近大远小的效果" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="659" y="246" width="270" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="yo_hxppsZWKmxfAibkp3-25" value="作用：所有物体统一的参考坐标系，表示物体的相对关系；&lt;br&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" parent="1" vertex="1">
+        <mxCell id="yo_hxppsZWKmxfAibkp3-25" value="作用：所有物体统一的参考坐标系，表示物体的相对关系；&lt;br&gt;物体的平移、旋转、缩放，是指的在世界坐标系下的变换" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="653" y="154" width="342" height="66.5" as="geometry" />
         </mxCell>
         <mxCell id="yo_hxppsZWKmxfAibkp3-26" value="作用：&lt;span style=&quot;color: rgb(37, 41, 51); font-family: -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, Arial; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;限制可视范围以及为后续将3d世界转成2d世界做准备。&lt;br&gt;而要做到这两件事，我们首先需要定义一个可视范围，&lt;br&gt;这个可视范围是我们的投影变换矩阵定义的。&lt;br&gt;&lt;a href=&quot;https://juejin.cn/post/6890795086054260750#heading-8&quot;&gt;https://juejin.cn/post/6890795086054260750#heading-8&lt;/a&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="656" y="324" width="386" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="yo_hxppsZWKmxfAibkp3-27" value="作用：物体的平移、旋转、缩放是基于此实现，&lt;br&gt;只是最终还会通过矩阵变换变换成世界坐标系中的坐标" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="653" y="69" width="379" height="61" as="geometry" />
+        <mxCell id="yo_hxppsZWKmxfAibkp3-27" value="作用：物体自身的坐标系，比如模型自己的坐标，从blender中制作一个模型肯定是需要一套坐标来表示自身；&lt;br&gt;在不同的环境下要对应不同的世界坐标系，比如把这个模型引入到一个three.js的工程中，就是用three.js中的世界坐标系给模型赋予一个位置" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="653" y="51" width="478" height="79" as="geometry" />
         </mxCell>
         <mxCell id="yo_hxppsZWKmxfAibkp3-28" value="three.js坐标系树&lt;a href=&quot;https://discoverthreejs.com/zh/book/first-steps/transformations/&quot;&gt;https://discoverthreejs.com/zh/book/first-steps/transformations/&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://juejin.cn/post/7057750193587879967&quot;&gt;https://juejin.cn/post/7057750193587879967&lt;/a&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="111.5" y="518" width="231" height="75" as="geometry" />
